@@ -1,0 +1,26 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# 生成 GitHub 个人主页统计卡片 SVG，自动 commit 到 profile-summary-card-output/
+# 每天 UTC 00:00 自动运行；也可在 Actions 页面手动触发
+# ─────────────────────────────────────────────────────────────────────────────
+name: Summary Cards
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-summary-cards
+    steps:
+      - uses: actions/checkout@v4
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # 使用 PAT（个人访问令牌），让统计包含 private 仓库的贡献
+          GITHUB_TOKEN: ${{ secrets.PAT }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
