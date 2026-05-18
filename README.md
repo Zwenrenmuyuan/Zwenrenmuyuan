@@ -45,27 +45,6 @@ contact:  3106133216@qq.com
 
 <br />
 
-### &nbsp;✦ &nbsp;Stats
-
-<!-- 由 Summary Cards Action 自动生成，存放在 profile-summary-card-output/ 目录 -->
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Zwenrenmuyuan/Zwenrenmuyuan/main/profile-summary-card-output/default/0-profile-details.svg" />
-</p>
-
-<p align="center">
-  <img height="200" src="https://raw.githubusercontent.com/Zwenrenmuyuan/Zwenrenmuyuan/main/profile-summary-card-output/default/1-repos-per-language.svg" />
-  <img height="200" src="https://raw.githubusercontent.com/Zwenrenmuyuan/Zwenrenmuyuan/main/profile-summary-card-output/default/2-most-commit-language.svg" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Zwenrenmuyuan">
-    <img src="https://streak-stats.demolab.com?user=Zwenrenmuyuan&hide_border=true&background=FFFFFF00&stroke=E2E8F0&ring=4A5568&fire=4A5568&currStreakNum=2D3748&currStreakLabel=4A5568&sideNums=2D3748&sideLabels=4A5568&dates=A0AEC0" />
-  </a>
-</p>
-
-<br />
-
 ### &nbsp;✦ &nbsp;Contributions
 
 <!-- 由 GitHub Action 自动生成；首次推送后到 Actions 手动触发一次「Generate Snake」 -->
